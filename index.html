@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OCM.AZ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbarbg">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-4">
+          <a class="navbar-brand" href="#">OCM.AZ</a>
+          <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">OCM path</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-outline-light contactbtn">
+            <img src="/assets/Frame.svg" /> Contact
+          </button>
+        </nav>
+      </div>
+    </div>
+    <!-- Hero Section -->
+    <div
+      class="hero d-flex flex-column align-items-center justify-content-center text-white text-center"
+    >
+      <div class="video-container">
+        <video muted loop class="hero-video" id="hoverVideo">
+          <source src="/assets/animation.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <div class="title-banner mt-3">
+        <h2>PhD. SAMIR SAMADOV — <em>Oracle Certified Master</em></h2>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="div1">
+        <div class="education-section section">
+          <div class="section-title">
+            <span class="school-icon"></span>
+            Education & Academic Achievements
+          </div>
+          <div class="list-item">Baku State University</div>
+          <div class="list-item">
+            Faculty: Applied Mathematics & Cybernetics
+          </div>
+          <div class="list-item">Specialization: Informatics</div>
+          <div class="list-item">Degree: Graduated with Honors (2006)</div>
+          <div class="list-item">
+            Master's Degree: Completed with Honors (2008)
+          </div>
+          <div class="list-item">
+            PhD in Technical Sciences (Postgraduate Studies) (2013)
+          </div>
+        </div>
+      </div>
+
+      <div class="div2">
+        <div class="experience-section section">
+          <div class="section-title">
+            <span class="building-icon"></span>
+            Professional Experience
+          </div>
+          <div class="list-item">
+            20+ Years in IT (Banking, Card & Data Processing, Government Sector)
+          </div>
+          <div class="list-item">
+            Extensive expertise in database administration, cloud
+            infrastructure, and performance optimization.
+          </div>
+          <div class="list-item">
+            Strong background in SQL, PL/SQL, and Oracle technologies.
+          </div>
+        </div>
+      </div>
+
+      <div class="div3">
+        <div class="skills-section section">
+          <div class="section-title">Technical Skills & Expertise</div>
+          <div class="checkmark-item">
+            Database: Oracle (9i, 10g, 11g, 12c), PL/SQL, SQL Tuning
+          </div>
+          <div class="checkmark-item">
+            Cloud: Oracle Cloud Infrastructure (OCI), Autonomous Database
+          </div>
+          <div class="checkmark-item">
+            Operating Systems: Linux Administration for Oracle DB
+          </div>
+        </div>
+      </div>
+
+      <div class="div4">
+        <div class="contentdiv4">
+          <div class="section-title">Oracle Certifications & Achievements</div>
+          <div class="trophy-icon">
+            Oracle 11g Certified Master (OCM) – Since 2013
+          </div>
+          <div class="diamond-bullet">
+            Member of Oracle's Elite Certification Group
+          </div>
+
+          <div class="section-title" style="margin-top: 20px">
+            Oracle Certification Exams Passed:
+          </div>
+          <div class="list-item">1Z0-007: Oracle9i: SQL</div>
+          <div class="list-item">1Z0-031: Oracle9i: DBA Fundamentals I</div>
+          <div class="list-item">1Z0-033: Oracle9i: Performance Tuning</div>
+          <div class="list-item">1Z0-101: PL/SQL Programming</div>
+          <div class="list-item">1Z0-032: Oracle9i: DBA Fundamentals II</div>
+          <div class="list-item">
+            1Z0-140: Oracle Database 10g: New Features
+          </div>
+          <div class="list-item">
+            1Z0-047: Oracle Database: SQL Certified Expert
+          </div>
+          <div class="list-item">
+            1Z0-050: Oracle Database 11g: New Features
+          </div>
+          <div class="list-item">
+            1Z0-146: Oracle Database 10g: Administration on Linux
+          </div>
+          <div class="list-item">
+            Oracle 11g Certified Master 2 Practice Days Exam
+          </div>
+          <div class="list-item">1Z0-060: Upgrade to Oracle Database 12c</div>
+          <div class="list-item">
+            1Z0-931: Oracle Autonomous Database Cloud 2019 Certified Specialist
+          </div>
+          <div class="list-item">
+            1Z0-1072: Oracle Cloud Infrastructure 2019 Architect Associate
+          </div>
+          <div class="list-item">
+            1Z0-1085: Oracle Cloud Infrastructure Foundations 2020
+          </div>
+        </div>
+      </div>
+
+      <div class="div5">
+        <div class="d-flex flex-column books">
+          <h2>Books</h2>
+          <img src="/assets/kitab.png" />
+          <img src="/assets/plsql.png" />
+        </div>
+      </div>
+
+      <div class="div6">
+        <p>
+          You can click on the download button to get the books. Or you can
+          learn the intricacies of this business area by enrolling in the course
+        </p>
+        <div class="buttons d-flex">
+          <div class="button-outer">
+            <button class="custom-button" onclick="sendWhatsAppMessage('Salam SQL və PL/SQL təlimə qoşulmaq istəyirəm.')">Təlimə qoşul</button>
+          </div>
+          <div class="button-outer">
+            <button class="custom-button" onclick="sendWhatsAppMessage('Salam SQL və PL/SQL təlimə qoşulmaq istəyirəm.')">Təlimə qoşul</button>
+          </div>
+          <div class="button-outer">
+            <button class="custom-button" onclick="sendWhatsAppMessage('Salam SQL və PL/SQL təlimə qoşulmaq istəyirəm.')">Təlimə qoşul</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="imagescontent">
+      <img src="/assets/ocmpath1.png" alt="">
+      <img src="/assets/ocmpath2.png" alt="">
+    </div>
+    <section style="margin: 0 auto; width: 92%" class="py-4">
+      <h2 class="section-title" id="section-title2">Tərəfdaşlar</h2>
+      <div class="banner">
+        <a class="logo" href="http://sql.az/ " target="_blank">
+          <img src="/assets/sqlaz.png" alt="SQL.az" />
+        </a>
+        <a class="logo" href="https://techbridge.az/" target="_blank">
+          <img src="/assets/techbridge.png" alt="Tech Bridge" />
+        </a>
+        </a>
+        <a class="logo" href="https://dba.az/" target="_blank">
+          <img src="/assets/dbazz.png" alt="Tech Bridge" />
+        </a>
+        <a class="logo" href="https://plsql.az/" target="_blank">
+          <img src="/assets/plsqllogo.png" alt="PL SQL.az" />
+        </a>
+      </div>
+    </section>
+
+
+    <section class="consultation-section">
+      <div class="consultation-container">
+        <div class="consultation-text">
+          <h1 class="consultation-title" id="section-title4">
+            Konsultasiyaya <br />
+            dəvət edirik!
+          </h1>
+          <p class="consultation-description">
+            Sizin üçün ən uyğun həlləri tapmaq və suallarınıza cavablandırmaq üçün konsultasiyaya dəvət edirik. Peşəkar komandamız sizə lazım olan dəstəyi göstərməyə hazırdır!
+          </p>
+          <div class="button-outer button-outersecond">
+            <div class="button-outer">
+              <button class="custom-button" onclick="sendWhatsAppMessage('Salam SQL və PL/SQL təlimə qoşulmaq istəyirəm.')">Təlimə qoşul</button>
+            </div>
+          </div>
+        </div>
+        <div class="consultation-form">
+          <input type="text" class="consultation-input" id="name" placeholder="Ad, soyad" />
+          <textarea class="consultation-textarea" id="message" placeholder="Yaz..."></textarea>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="top-bar">
+      <div class="left-section">
+        OCM.AZ
+      </div>
+      <div class="right-section">
+        <span class="phone">+994 55 940 95 65</span>
+        <div class="social-icons">
+          <img src="/assets/linkedin.png" alt="LinkedIn">
+          <img src="/assets/instagram.png" alt="Instagram">
+          <img src="/assets/facebook.png" alt="Facebook">
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      const video = document.getElementById("hoverVideo");
+
+      video.parentElement.addEventListener("mouseenter", () => {
+        video.play();
+      });
+
+      video.parentElement.addEventListener("mouseleave", () => {
+        video.pause();
+        // Don't reset currentTime, so it continues from where it stopped
+      });
+    </script>
+  </body>
+</html>
