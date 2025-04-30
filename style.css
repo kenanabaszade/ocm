@@ -131,13 +131,13 @@ html {
 
 .title-banner {
   background-color: #035c8d;
-  padding: 36px 24px;
+  padding: 19px 24px;
   border-radius: 8px;
   margin-top: 16px;
   /* height: 56px; */
   width: 80%;
   position: absolute;
-  bottom: 0;
+  bottom: -17px;
   text-align: center;
 }
 
@@ -203,7 +203,10 @@ html {
   height: 1490px;
 
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .div1 {
   padding: 40px;
   width: 50%;
@@ -358,7 +361,7 @@ html {
   overflow: hidden;
   background: linear-gradient(to right, #035C8D 0%, #035C8D 50%, #035C8D 100%);
   width: 100%;
-  height: 150px;
+  height: 180px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -372,8 +375,9 @@ html {
   background: linear-gradient(to right, #E9E9E9 0%, #8C8C8C 50%, #FFFFFF 100%);
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
-  border-radius: 10px; /* important for matching rounded corners */
-  z-index: 1;
+  border-radius: 10px; 
+  z-index: 1; 
+  transform: scale(0.93);
 }
 .top-bar {
   background-color: #0B1231;
