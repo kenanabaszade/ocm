@@ -617,7 +617,26 @@ a {
     max-height: 60px;
   }
 }
-
+@media (max-width: 991px) {
+  .navbar-collapse {
+      margin-top: 15px;
+  }
+  
+  .contactbtn {
+      margin-top: 15px;
+      width: 100%;
+      justify-content: center;
+  }
+  
+  .navbar-nav {
+      text-align: center;
+      padding: 10px 0;
+  }
+  
+  .nav-item {
+      margin: 5px 0;
+  }
+}
 @media (max-width: 768px) {
   .title-banner h2 {
     font-size: 1rem;
