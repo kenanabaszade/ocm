@@ -116,7 +116,7 @@ html {
 
 .video-container {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 0px 0px 16px 16px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
