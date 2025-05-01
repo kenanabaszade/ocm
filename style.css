@@ -647,8 +647,17 @@ a {
     font-size: 1.5rem;
   }
 
+  .contactbtncontainer {
+    width: 75% !important;
+    margin: 0 auto;
+  }
+
   .hero {
     height: initial;
+  }
+  .logo {
+    display: block;
+    padding: 10px;
   }
 
   .video-container {
@@ -668,8 +677,8 @@ a {
   }
   .banner {
     height: auto;
-    flex-direction: column;
-    padding: 20px;
+    flex-direction: row;
+    padding: 10px;
   }
   .button-outer {
     width: 100%;
