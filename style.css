@@ -636,6 +636,8 @@ a {
   .nav-item {
       margin: 5px 0;
   }
+
+
 }
 @media (max-width: 768px) {
   .title-banner h2 {
@@ -647,6 +649,14 @@ a {
 
   .hero {
     height: initial;
+  }
+
+  .video-container {
+    border-radius: 0;
+  }
+
+  .navbarbg .container .navbar {
+    flex-direction: row;
   }
 
   .consultation-description,
