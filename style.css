@@ -246,7 +246,7 @@ a {
   width: 60%;
   border-left: 2px solid #d77302;
   border-bottom: 2px solid #d77302;
-  padding-left: 209px;
+  padding-left: 209px !important;
 
 }
 
@@ -573,15 +573,7 @@ a {
   transition: 0.3s ease-in-out;
   z-index: 0;
 }
- 
-
-
-
-
-
-
- 
-
+  
 /* Responsive layout adjustments */
 @media (max-width: 1200px) {
   .parent {
@@ -668,12 +660,18 @@ a {
     margin: 0 auto;
   }
 
+  .div4 {
+    padding-left: 30px !important;
+  }
+
   .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
   }
 
-
+  .parent {
+    padding: 0 60px;
+  }
 
   .hero {
     height: initial;
