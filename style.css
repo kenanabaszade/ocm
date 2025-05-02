@@ -215,7 +215,7 @@ html {
   display: flex;
   flex-wrap: wrap; 
   border-bottom: 2px solid #035c8d; 
-  height: 1734px;
+  height: 1600px;
   padding: 0 90px;
 }
 a {
@@ -354,7 +354,7 @@ a {
 
 }
 .imagescontent {
-  padding: 100px;
+  padding: 125px;
 }
 .banner {
   transition: all ease-in-out 1s;
