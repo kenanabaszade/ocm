@@ -215,7 +215,7 @@ html {
   display: flex;
   flex-wrap: wrap; 
   border-bottom: 2px solid #035c8d; 
-  height: 1490px;
+  height: 1734px;
   padding: 0 90px;
 }
 a {
@@ -479,6 +479,8 @@ a {
 
 .books img {
   width: 532px;
+  height: 390px;
+  object-fit: cover;
 }
 
 .div6 p {
@@ -655,6 +657,15 @@ a {
   .contactbtn:hover {
     width: 100%;
   }
+
+  .books img {
+    width: 532px;
+    height: auto;
+    object-fit: initial;
+  }
+  
+
+
   .contactbtncontainer {
     width: 75% !important;
     margin: 0 auto;
