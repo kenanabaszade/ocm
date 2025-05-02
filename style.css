@@ -125,6 +125,14 @@ html {
   filter: invert(1);
 }
 
+
+.navbar-collapse {
+  flex-basis: initial;
+  flex-grow: initial;
+}
+
+
+
 .navbar-toggler {
   border: white;
 }
@@ -661,6 +669,13 @@ a {
     width: 75% !important;
     margin: 0 auto;
   }
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+
+
 
   .hero {
     height: initial;
